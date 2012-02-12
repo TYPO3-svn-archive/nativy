@@ -1,0 +1,14 @@
+module.tx_nativy {
+	view {
+		# cat=module.tx_nativy/file; type=string; label=Path to template root (BE)
+		templateRootPath = EXT:nativy/Resources/Private/Backend/Templates/
+		# cat=module.tx_nativy/file; type=string; label=Path to template partials (BE)
+		partialRootPath = EXT:nativy/Resources/Private/Backend/Partials/
+		# cat=module.tx_nativy/file; type=string; label=Path to template layouts (BE)
+		layoutRootPath = EXT:nativy/Resources/Private/Backend/Layouts/
+	}
+	persistence {
+		# cat=module.tx_nativy//a; type=int+; label=Default storage PID
+		storagePid = 
+	}
+}
